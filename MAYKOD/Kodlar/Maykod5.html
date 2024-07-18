@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MAYKOD</title>
+    <style>
+        body{
+            background: #131313;
+            color: #525252;
+            font-family: verdana,Arial,Helvetica,sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+        }
+        .sayfa{
+            width: 960px;
+            margin: auto;
+        }
+        .ust{
+            background: #232323;
+        }
+        #logo{
+            float: left;
+            width: 260px;
+            margin-top: 7px;
+            margin-left: 10px;
+        }
+        
+        #logo h1{
+            margin: 0;
+            padding: 0;
+            font-size: 42px;
+            text-transform: uppercase;
+            
+        }
+        
+        #logo h1 a{
+            font-family: Georgia;
+            text-decoration: none;
+            color: #DBDBDB;
+            letter-spacing: 3px;
+        }
+        
+        #logo p{
+            color: #DBDBDB;
+            font-family: Georgia;
+            margin-left: 3px;
+            margin-top: 0;
+            padding-top: 0;
+            letter-spacing: 2px;
+        }
+        
+        #menu{
+            float: right;
+            width: 650px;
+            margin: 30px 0 0 0;
+            padding: 0;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        #menu ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        #menu ul li{
+            display: inline;
+            margin-right: 35px;
+        }
+        
+        #menu ul li a{
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Verdana;
+            color: #DBDBDB;
+        }
+        
+        .clear{
+            clear: both;
+        }
+        #contact{
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+        }
+        .container{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .title{
+            font-size: 4rem;
+            text-align: left;
+            margin-bottom: 3rem;
+            padding: 2rem;
+        }
+        .contact-area{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cont-left{
+            width: 40%;
+            padding: 1rem;
+        }
+        .cont-top{
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #ffffff;
+        }
+        .cont-element{
+            margin: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+        .cont-element i{
+            color: #ffffff;
+            padding: 0.7rem;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            transition: #60829d;
+        }
+        .cont-element:hover i{
+            background-color: #ffffff;
+            color:#304555;
+        }
+        .cont-element a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .cont-bottom{
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .cont-bottom a{
+            color:#ffffff;
+            width: 2rem;
+            height: 2rem;
+            line-height: 2rem;
+            text-align: center;
+            font-size: 1rem;
+            background-color: #181818;
+            border-radius: 20%;
+        }
+        .cont-bottom a:hover{
+            color: #181818;
+            background-color: #ffffff;
+        }
+        .cont-right{
+            width: 60%;
+            padding: 2rem;
+        }
+        .cont-right form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        }
+        .cont-right form,input,textarea,button{
+            width: 100%;
+            margin: 1rem 0;
+            background-color: transparent;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            outline: none;
+            border: 1px  solid #ffffff;
+            color: #ffffff;
+            transition: all 0.4s ease;
+        }
+        .cont-right form button{
+            background-color: #ffffff;
+            color: #304555;
+            cursor: pointer;
+        }
+        .cont-right form button:hover{
+            background-color: #304555;
+            color: #ffffff;
+        }
+        .cont-right form input:hover, textarea:hover{
+            color: #304555;
+            background-color: #ffffff;
+        }
+        .cont-right form input:focus, textarea:focus{
+            color: #304555;
+            background-color:#ffffff;
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+    </style>
+</head>
+ 
+<body>
+    <div class="sayfa">
+        <div class="ust">
+            <div id="logo">
+                <h1><a href="#">Maykod</a></h1>
+                <p>Geleceğimizi Beraber Kodlayalım</p>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="Maykod.html">Anasayfa</a></li>
+                    <li><a href="Maykod2.html">Etkinliklerimiz</a></li>
+                    <li><a href="Maykod3.html">Hakkımızda</a></li>
+                    <li><a href="Maykod4.html">Üye Ol</a></li>
+                    <li><a href="Maykod5.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <section id="contact">
+            <div class="container">
+                <div class="contact-area">
+                    <div class="cont-left">
+                        <div class="cont-top">
+                            <div class="cont-element">
+                                <i class="far fa-address-card"></i>
+                                <address>Muş/Turkey</address>
+                            </div>
+                            <div class="cont-element">
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:maykod@gmail.com">maykod@gmail.com</a>
+                            </div>
+                            <div class="cont-element">
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:+0905457202866">0545 720 28 66</a>
+                            </div>
+                        </div>
+                        <div class="cont-bottom">
+                            <i class="fab fa-facebook-f"></i>
+                            <a href=""><img src="Facebook.png"></a>
+                            <i class="fab fa-twitter"></i>
+                            <a href="https://mobile.twitter.com/MaykodMSU"><img src="twitter.png"></a>
+                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/maykodmaun/?hl=am-et"><img src="İnstagram.jpg"></a>
+                            <i class="fab fa-whatsapp-in"></i>
+                            <a href="https://chat.whatsapp.com/JOKQXMJ75OZ44Idc8TAUO6"><img src="whatsapp.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="cont-right">
+                        <form action="">
+                            <input type="text" name="text" placeholder="Full Name">
+                            <input type="email" name="email" placeholder="Email">
+                            <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+                            <button>Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+    </div>
+</body>
+</html>
